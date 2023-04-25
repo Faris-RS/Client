@@ -1,0 +1,22 @@
+import CreateSnippet from "../components/postForm/form";
+
+
+
+function
+
+  const [showModal, setShowModal] = useState(false);
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
+
+  return(
+    <h3
+    className="mt-20 text-4xl font-semibold text-white cursor-pointer"
+    // onClick={toggleModal}
+  >
+    Create snippet
+  </h3>
+  {/* {showModal && (
+  <CreateSnippet toggleModal={toggleModal} />
+)} */}
+  )

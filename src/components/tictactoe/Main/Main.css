@@ -1,0 +1,18 @@
+/* main {
+  flex: 1;
+  display: grid;
+  place-content: center;
+} */
+
+.tictactoeeeee {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.tictactoemain {
+  flex: 1;
+  display: grid;
+  place-content: center;
+}
